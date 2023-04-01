@@ -24,8 +24,8 @@ contract TestOmnichainNFT is Test{
     uint16 fantomID = 10112;
     uint256 gasETH = 61174;
     uint256 gasFTM = gasETH * 2;  
-    string RPC_URL_GOERLI = "https://goerli.infura.io/v3/ded5ffb90fc547529254973ad8341755";
-    string RPC_URL_FTM = "https://fantom-testnet.blastapi.io/54420425-7b5d-4ff9-85b2-456a574bd98c";
+    string RPC_URL_GOERLI = "https://goerli.infura.io/v3/";
+    string RPC_URL_FTM = "https://fantom-testnet.blastapi.io/";
 	address owner = makeAddr("owner");
 	address alice = makeAddr("alice");
     address endPointETH = 0xbfD2135BFfbb0B5378b56643c2Df8a87552Bfa23;
